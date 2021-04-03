@@ -4,7 +4,7 @@ from typing import Dict
 from exception import ConfigException
 
 
-class EasyConfig:
+class Config:
 
     base_path: str
     config_dict: Dict

@@ -1,16 +1,16 @@
 from distutils.core import setup
 
 setup(
-    name="easyconfig",
-    packages=["easyconfig"],
-    version="0.1.1",
+    name="ezconf",
+    packages=["ezconf"],
+    version="0.2.0",
     license="MIT",
     description="An easy-to-use configuration package using YAML",
     author="Lars Eppinger",
     author_email="pypi@eppinger.dev",
     url="https://github.com/lars250698/easyconfig",
-    download_url="https://github.com/lars250698/easyconfig/archive/v_0_1_1.tar.gz",
-    keywords=["config", "configuration", "yaml", "easyconfig"],
+    download_url="https://github.com/lars250698/ezconf/archive/v_0_2_0.tar.gz",
+    keywords=["config", "configuration", "yaml", "easyconfig", "easyconf", "ezconfig", "ezconf"],
     requires=["pyyaml"],
     classifiers=[
         'Development Status :: 3 - Alpha',
